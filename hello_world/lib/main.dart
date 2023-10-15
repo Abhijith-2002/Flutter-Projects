@@ -5,7 +5,12 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Scaffold(
+      home: Scaffold
+      (appBar: AppBar(
+        title: Text(
+          'Welcome'
+          ),
+          ),
         body: Center(
           child: Container(
             width: 360,
