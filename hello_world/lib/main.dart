@@ -8,7 +8,13 @@ void main() {
       home: Scaffold
       (appBar: AppBar(
         title: Text(
-          'Welcome'
+          'Welcome',
+          style: TextStyle(
+              fontSize: 30,
+              color: Colors.black,
+              fontFamily: 'PixelifySans',
+              fontWeight: FontWeight.w500,
+              ),
           ),
           ),
         body: Center(
@@ -21,6 +27,8 @@ void main() {
             style: TextStyle(
               fontSize: 60,
               color: Colors.black,
+              fontFamily: 'PixelifySans',
+              fontWeight: FontWeight.w500,
               ),
             ),
           ),
